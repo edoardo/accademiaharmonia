@@ -1,0 +1,11 @@
+    <div id="events">
+     <p>Di seguito vengono riportati tutti i prossimi eventi musicali e culturali in programma organizzati dall'Accademia Musicale - Culturale &quot;HARMONIA&quot;.</p>
+     <TMPL_IF name="events"><TMPL_LOOP name="events">
+     <h3 id="<TMPL_VAR name="anchor">"><TMPL_VAR name="date"></h3>
+     <h4><TMPL_VAR name="title"></h4>
+     <p><TMPL_VAR name="description"></p>
+     </TMPL_LOOP>
+     <TMPL_ELSE>
+      <h4>Nessun evento in programma</h4>
+      <p>Per restare aggiornati sulle attivit&agrave; dell'Accademia Musicale-Culturale &quot;HARMONIA&quot; <a href="/rss/it/harmonia.rss">sottoscrivete il feed <acronym title="Really Simple Syndication">RSS</acronym></a>!</p></TMPL_IF>
+    </div>

@@ -1,0 +1,9 @@
+/*
+   accademiaharmonia.interfree.it
+   simple style (CSS2)
+   hack for overwrite the logo with the english one
+*/
+#logo
+{
+    background: url(/skins/simple/logo_en.gif) center no-repeat;
+}

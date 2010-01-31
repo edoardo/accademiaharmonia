@@ -1,0 +1,21 @@
+/* CSS hacks for IE */
+body
+{
+    behavior: url(/css/cssfocusandhover.htc);
+}
+
+#navigator
+{
+    margin: 50px 10px 0 40px;
+}
+
+#links
+{
+    margin: 50px 10px 0 0;
+}
+
+#content
+{
+    margin: 50px 0 20px 10px;
+    width: 452px;
+}

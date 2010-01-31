@@ -1,0 +1,8 @@
+    <p>You can subscribe to our mailing list using the form below.</p>
+
+    <form>
+     <label for="email">E-mail address:</label><br />
+     <input type="text" name="email" value="name@domain.net" onfocus="this.value=''" /><br /><br />
+     <input type="checkbox" name="remove" /> <label for="remove">remove</label><br /><br />
+     <input type="button" value="send" onclick="alert('added/removed address ' + this.form.email.value)" />
+    </form>

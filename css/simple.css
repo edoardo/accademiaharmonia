@@ -1,0 +1,393 @@
+/*
+   accademiaharmonia.interfree.it
+   simple style (CSS2)
+*/
+/* xhtml tags */
+body
+{
+    margin: 4px 0;
+    padding: 0;
+    font: normal 14px "Trebuchet MS", Arial, Verdana, sans-serif;
+    background: transparent url(/skins/simple/bg_pattern.gif);
+    text-align: center;
+}
+
+a
+{
+    color: #a52a2a;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+acronym
+{
+    cursor: help;
+    font-style: oblique;
+    border: none;
+}
+
+hr
+{
+    display: none;
+}
+
+img
+{
+    border: 0;
+}
+
+/* custom identifiers */
+#container
+{
+    margin: auto;
+    width: 700px;
+    color: inherit;
+    background: #ffffff url(/skins/simple/bg_logo.gif) top right no-repeat;
+    border-top: #400000 1px solid;
+    border-left: #400000 1px solid;
+    border-bottom: #600000 1px solid;
+    border-right: #600000 1px solid;
+}
+
+/* header and footer sections*/
+#header,
+#footer
+{
+    height: 14px;
+    padding: 4px 8px;
+    background: transparent url(/skins/simple/pattern_zebra.gif) repeat;
+}
+
+#header
+{
+    border-bottom: #ababab 1px solid;
+}
+
+#footer
+{
+    border-top: #ababab 1px solid;
+}
+
+/* feed and validators
+    positioned in the right corners of header and footer
+    contains links to rss feed and informations page
+*/
+#feed,
+#validators
+{
+    float: right;
+    padding: 1px;
+    font: normal 10px Verdana, Tahoma, sans-serif;
+}
+
+#feed a,
+#validators a
+{
+    color: #adadad;
+    background-color: inherit;
+    padding: 0 3px;
+    border: 1px #adadad solid;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#feed a:hover,
+#validators a:hover
+{
+    color: #8a8a8a;
+    background-color: inherit;
+    border-color: #8a8a8a;
+}
+
+/* news section
+    positioned in the left corner of header
+    shows the next scheduled event 
+*/
+#news
+{
+    float: left;
+    font: normal 9px Verdana, Tahoma, sans-serif;
+}
+
+#news span
+{
+    display: none;
+}
+
+#news a
+{
+    font-size: 10px;
+    color: #000000;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+/* copyright section
+    positioned in left corner of footer
+    shows copyright data
+*/
+#copyright
+{
+     float: left;
+     font: normal 9px Verdana, Tahoma, sans-serif;
+}
+
+/* logo section
+   positioned under header
+   shows the logo */
+#logo
+{
+    height: 150px;
+    width: 698px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: #e0e0e0 1px solid;
+    background: url(/skins/simple/logo_it.gif) center no-repeat;
+}
+
+#logo img,
+#logo h1,
+#logo h2
+{
+    display: none;
+}
+
+/* flags section
+    floating right under links
+    shows flags images for choose an alternative language
+*/
+#flags
+{
+    margin: 16px 20px 0 0;
+    float: right;
+}
+
+#flags span
+{
+    display: none;
+}
+
+/* navigator section
+    floating right
+    shows the links to musical and cultural pages
+*/
+#navigator
+{
+    margin: 17px 20px 0 0;
+    float: right;
+    clear: right;
+    text-align: left;
+    background-color: transparent;
+    border: #e0e0e0 1px solid;
+}
+
+#navigator h4
+{
+    margin: 0;
+    padding: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: inherit;
+    background: #e0e0e0 url(/skins/simple/pattern_zebra.gif);
+}
+
+#navigator ul
+{
+    margin: 0;
+    padding: 3px 3px 3px 3px;
+}
+
+#navigator li
+{
+    padding: 2px 11px 2px 11px;
+    list-style-type: none;
+}
+
+#navigator li:hover
+{
+    padding: 1px 10px 1px 10px;
+    color: inherit;
+    background-color: #f5f5f5;
+    border: #ababab 1px solid;
+}
+
+#navigator a
+{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* links section
+    floating right under navigator
+    shows additional links to various pages
+*/
+#links
+{
+    margin: 50px 20px 0 0;
+    float: right;
+    clear: right;
+    text-align: left;
+    background-color: transparent;    
+    border: #e0e0e0 1px solid;
+}
+
+#links h4
+{
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    color: inherit;
+    background: #e0e0e0 url(/skins/simple/pattern_zebra.gif);
+}
+
+#links ul
+{
+    margin: 0;
+    padding: 3px 3px 3px 3px;
+}
+
+#links li
+{
+    list-style-type: none;
+    padding: 1px 10px 1px 10px;
+}
+
+#links a
+{
+    font-size: 12px;
+}
+
+/* content section
+    left floating under logo
+    shows the main content for each page
+*/
+#content
+{
+    margin: 50px 0 20px 20px;
+    padding: 10px 25px;
+    width: 410px;
+    min-height: 380px;
+    text-align: justify;
+    color: inherit;
+    background-color: #f5f5f5;
+    border: #e0e0e0 1px solid;
+}
+
+#content h3
+{
+    margin: 0;
+    line-height: 16px;
+    padding: 10px 10px 0 0;
+    text-align: right;
+    font-size: 18px;
+    font-style: oblique;
+    letter-spacing: 2px;
+    color: #a52a2a;
+    background-color: inherit;
+    border-bottom: 1px #ababab solid;
+}
+
+#content p
+{
+    text-indent: 20px;
+}
+
+#content img.photo
+{
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 1px #ababab solid;
+    color: inherit;
+    background-color: #ffffff;
+}
+
+/* page specific behaviours */
+
+/* contacts page */
+#contacts ul
+{
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+#contacts li
+{
+    margin: 10px 0;
+    padding: 10px 10px 10px 10px;
+    list-style-type: square;
+}
+
+#contacts li span
+{
+    font-size: 16px;
+}
+
+/* repertory page */
+#repertory
+{
+    text-align: left;
+}
+
+#repertory h4
+{
+    margin: 0 0 10px 0;
+}
+
+#repertory ul
+{
+    margin: 0;
+    padding: 2px 0 15px 20px;
+}
+
+#repertory li
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* publications page */
+#publications h4
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#publications ul
+{
+    margin: 0;
+    padding: 2px 0 15px 20px;
+}
+
+/* events page */
+#events h3
+{
+    text-align: left;
+    text-indent: 20px;
+    letter-spacing: normal;
+    padding-top: 30px;
+    color: #404040;
+    background-color: inherit;
+}
+
+#events h4
+{
+    color: #a52a2a;
+    background-color: inherit;
+    font-size: 16px;
+    text-indent: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.shortcut
+{
+    text-decoration: underline;
+}
