@@ -323,7 +323,7 @@ img
     list-style-type: square;
 }
 
-#contacts li span
+#contacts li b
 {
     font-size: 16px;
 }
