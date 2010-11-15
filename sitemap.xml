@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.9">
  <url>
   <loc>http://accademiaharmonia.interfree.it/html/it/about.html</loc>
   <changefreq>monthly</changefreq>
@@ -35,11 +35,23 @@
   <changefreq>monthly</changefreq>
  </url>
  <url>
+  <loc>http://accademiaharmonia.interfree.it/html/it/officers.html</loc>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>http://accademiaharmonia.interfree.it/html/it/paola_gasparutti.html</loc>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
   <loc>http://accademiaharmonia.interfree.it/html/it/publications.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>http://accademiaharmonia.interfree.it/html/it/repertory.html</loc>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>http://accademiaharmonia.interfree.it/html/it/silvia_tomat.html</loc>
   <changefreq>monthly</changefreq>
  </url>
 </urlset>
