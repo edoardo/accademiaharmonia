@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.9">
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/about.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/about.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/beppino_delle_vedove.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/beppino_delle_vedove.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/choir.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/choir.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/contacts.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/contacts.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/events.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/events.html</loc>
   <changefreq>weekly</changefreq>
   <priority>1.0</priority>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/giuseppe_schiff.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/giuseppe_schiff.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/home.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/home.html</loc>
   <changefreq>weekly</changefreq>
   <priority>1.0</priority>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/logo.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/logo.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/officers.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/officers.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/paola_gasparutti.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/paola_gasparutti.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/publications.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/publications.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/repertory.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/repertory.html</loc>
   <changefreq>monthly</changefreq>
  </url>
  <url>
-  <loc>http://accademiaharmonia.interfree.it/html/it/silvia_tomat.html</loc>
+  <loc>http://accademiaharmonia.org/html/it/silvia_tomat.html</loc>
   <changefreq>monthly</changefreq>
  </url>
 </urlset>
