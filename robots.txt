@@ -4,3 +4,4 @@ Disallow: /generator.pl
 Disallow: /feeder.pl
 Disallow: /tmpl/
 Disallow: /zip/
+Disallow: /interfree.it/
