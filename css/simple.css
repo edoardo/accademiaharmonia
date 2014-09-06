@@ -107,7 +107,7 @@ img
 /* news section
     positioned in the left corner of header
     shows the next scheduled event 
-*/
+
 #news
 {
     float: left;
@@ -126,6 +126,7 @@ img
     background-color: inherit;
     text-decoration: none;
 }
+*/
 
 /* copyright section
     positioned in left corner of footer
@@ -326,6 +327,20 @@ img
 #contacts li b
 {
     font-size: 16px;
+}
+
+/* courses page */
+#courses h4
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* news page */
+#news h4
+{
+    margin-top: 30px;
+    text-align: center;
 }
 
 /* repertory page */

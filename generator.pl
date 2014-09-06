@@ -21,11 +21,15 @@ my $cHtmlPath = 'html/'.$cLanguage;
 # Website structure
  my @aWebsite = (
    { page => 'home', title => { it => 'Presentazione', en => 'Presentation' } },
+   { page => 'news', title => { it => 'Novità', en => 'News' } },
    { page => 'choir', title => { it => 'il Coro', en => 'the Choir' } },
    { page => 'repertory', title => { it => 'il Repertorio', en => 'the Repertory' } },
+   { page => 'courses', title => { it => 'i Corsi', en => 'the Courses' } },
    { page => 'paola_gasparutti', title => { it => 'Paola Gasparutti', en => 'Paola Gasparutti' } },
    { page => 'giuseppe_schiff', title => { it => 'Giuseppe Schiff', en => 'Giuseppe Schiff' } },
    { page => 'beppino_delle_vedove', title => { it => 'Beppino Delle Vedove', en => 'Beppino delle Vedove' } },
+   { page => 'arianna_paiani', title => { it => 'Arianna Paiani', en => 'Arianna Paiani' } },
+   { page => 'silvia_tomat', title => { it => 'Silvia Tomat', en => 'Silvia Tomat' } },
    { page => 'publications', title => { it => 'le Pubblicazioni', en => 'the Publications' } },
    { page => 'events', title => { it => 'Eventi', en => 'Events' } },
    { page => 'logo', title => { it => 'Logo', en => 'Logo' } },
@@ -63,7 +67,7 @@ foreach my $rPage ( @aWebsite )
     {
         $oTmpl->param( title => $rPage->{'title'}->{$cLanguage},
                        file => $rPage->{'page'} . '.html',
-                       next_event => $cNextEvent,
+                       #next_event => $cNextEvent,
                        content => getContent( $rPage->{'page'} ),
                        year => $aLocaltime[5] + 1900,
         );
