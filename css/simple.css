@@ -406,3 +406,10 @@ img
 {
     text-decoration: underline;
 }
+
+.menu-highlight
+{
+    padding: 2px 4px;
+    background-color: #a52a2a;
+    color: #ffffff;
+}
